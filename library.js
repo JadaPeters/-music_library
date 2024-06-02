@@ -37,7 +37,7 @@ for (const playlistId in library.playlists ){
 }
 };
 printPlaylists();
-console.log("---")
+console.log("----")
 
 // prints a list of all tracks, using the following format:
 // t01: Code Monkey by Jonathan Coulton (Thing a Week Three)
@@ -50,7 +50,7 @@ const printTracks = function() {
        }
 };
 printTracks();
-console.log("---")
+console.log("----")
 
 
 // prints a list of tracks for a given playlist, using the following format:
@@ -83,7 +83,7 @@ const addTrackToPlaylist = function(trackId, playlistId) {
             addTrackToPlaylist("t02", "p02");
             console.log(library.playlists["p02"].tracks);
 }
-console.log("---")
+console.log("----")
 
 
 // generates a unique id
@@ -102,7 +102,7 @@ const addTrack = function(name, artist, album) {
 
 addTrack("Hours", "Jada", "January Hours");
 console.log(library);
-console.log("---")
+console.log("----")
 
 
 
